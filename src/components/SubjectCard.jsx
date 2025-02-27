@@ -24,7 +24,7 @@ const SubjectCard = ({ subject, scores, darkMode, onChange }) => {
             max="20"
             value={getScore('ds')}
             onChange={(e) => onChange(subject.id, 'ds', e.target.value)}
-            className="w-20 px-3 py-2 rounded border focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className={`${darkMode && "text-black"} w-20 px-3 py-2 rounded border focus:outline-none focus:ring-2 focus:ring-blue-500`}
           />
         </div>
 
