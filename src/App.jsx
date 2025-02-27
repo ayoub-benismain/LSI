@@ -17,7 +17,7 @@ const subjects = [
 export default function App() {
 
   return (
-    <h1>9a3ed nrake7 fel les coefficient</h1>
+    <h1 className='bg-white text-black'>9a3ed nrake7 fel les coefficient</h1>
   )
 //   const [darkMode, setDarkMode] = useState(false);
 //   const [scores, setScores] = useState({});
